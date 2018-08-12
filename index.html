@@ -3,45 +3,86 @@
 
 <head>
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <!--Import materialize.css-->
-    <link rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 <body>
-
+<!--start header-->
+<header>
     <nav class="sidenav-trigger">
         <div class="nav-wrapper">
             <div class="container">
-                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#!" class="brand-logo yellow-text accent-2 hide-on-med-and-down">Kholoud</a>
+                <a href="#!" class="brand-logo yellow-text accent-2 show-on-medium-and-down hide-on-med-and-up">kh</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><a href="#home" class="yellow-text accent-2">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="#home" class="yellow-text accent-2">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
+</header>
+<!--end header-->
+<!--start home-->
+<section id="home" class="home">
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/parallax1.jpg">
+        </div>
+        <div class="row valign-wrapper">
+            <div class="col l6 m6 offset-m3 offset-l3 ">
+                <div class="user-info center-align">
+                    <img class="circle responsive-img z-depth-4" src="img/person.jpeg">
+                    <h1 class="flow-text yellow-text accent-2">Kholoud Eissa</h1>
+                    <p class="flow-text">Computer science fresh graduate. Motion graphic designer. Passionate
+                        learner. Series and movies lover.</p>
+                    <div class="social">
+                        <a class="tooltipped" data-position="top" data-tooltip="Facebook" href="https://www.facebook.com/m7md.7mza" target="_blank">
+                            <i class="fab fa-facebook-f fa-2x fa-fw"></i>
+                        </a>
+                        <a class="tooltipped" data-position="top" data-tooltip="LinkedIn" href="https://www.linkedin.com/in/m7md7mza/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-2x fa-fw"></i>
+                        </a>
+                        <a class="tooltipped" data-position="top" data-tooltip="Github" href="https://github.com/mohammedhamza1" target="_blank">
+                            <i class="fab fa-github fa-2x fa-fw"></i>
+                        </a>
+                        <a class="tooltipped" data-position="top" data-tooltip="Instagram" href="https://www.instagram.com/m7md_7mza/" target="_blank">
+                            <i class="fab fa-instagram fa-2x fa-fw"></i>
+                        </a>
+                        <a class="tooltipped" data-position="top" data-tooltip="Gmail" href="mailto:muhammed7amza@gmail.com" target="_blank">
+                            <i class="fas fa-envelope fa-2x fa-fw"></i>
+                        </a>
+                        <a class="tooltipped" data-position="top" data-tooltip="Phone number" href="tel:+201064773503">
+                            <i class="fas fa-mobile-alt fa-2x fa-fw"></i>
+                        </a>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end home-->
 
-
-    <script src='js/jquery-3.3.1.min.js'></script>
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script src="js/script.js"></script>
+<script src='js/jquery-3.3.1.min.js'></script>
+<!--JavaScript at end of body for optimized loading-->
+<script src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script src="js/script.js"></script>
 </body>
-
 </html>

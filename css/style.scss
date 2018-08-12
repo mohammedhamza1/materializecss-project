@@ -1,0 +1,72 @@
+@import "components/variables.scss";
+@import "components/buttons.scss";
+@import "components/shared.scss";
+//general
+*::selection {
+  background: #ffc400;
+  color: #fff;
+}
+
+*::-moz-selection {
+  background: #ffc400;
+  color: #fff;
+}
+
+.nicescroll-rails {
+  z-index: 99999 !important;
+}
+
+//start header
+header {
+  nav {
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+    .brand-logo {
+      text-transform: uppercase;
+    }
+    .show-on-medium-and-down {
+      border: 3px solid ;
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
+      top: 26px;
+      text-align: center;
+    }
+    .material-icons{
+      color: #ffff00;
+    }
+  }
+}
+
+//end header
+
+//start home
+section.home {
+  background: rgba(0, 0, 0, 0.8);
+  .user-info {
+    color: #fff;
+    h1 {
+      text-align: center;
+      margin: 15px 0;
+      text-transform: capitalize;
+    }
+    p {
+      margin: 0;
+    }
+    .social {
+      margin-top: 60px;
+      a {
+        margin-right: 20px;
+        color: #fff;
+        text-decoration: none;
+        opacity: .6;
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+//end home
